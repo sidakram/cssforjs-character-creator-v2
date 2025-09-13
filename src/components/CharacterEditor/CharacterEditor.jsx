@@ -29,6 +29,8 @@ function App() {
   );
 
   return (
+    <>
+    <div className={styles.half} />
     <main className={styles.characterEditor}>
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
@@ -89,6 +91,7 @@ function App() {
         />
       </div>
     </main>
+  </>
   );
 }
 
